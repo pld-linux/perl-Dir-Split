@@ -8,13 +8,13 @@
 Summary:	Dir::Split - Split files of a directory to subdirectories
 Summary(pl.UTF-8):	Dir::Split - dzielenie plików z katalogu na podkatalogi
 Name:		perl-Dir-Split
-Version:	0.79
+Version:	0.80
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Dir/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9ff9e6e91c1b6f6ed4bb908179489c3c
+# Source0-md5:	56f6d45380aadcc4c178358db1017cdc
 URL:		http://search.cpan.org/dist/Dir-Split/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -70,6 +70,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README TODO
+%doc Changes README
 %{perl_vendorlib}/Dir/*.pm
 %{_mandir}/man3/*
