@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Dir
 %define	pnam	Split
 Summary:	Dir::Split - Split files of a directory to subdirectories
